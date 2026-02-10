@@ -23,10 +23,7 @@ int main(){
             it++;
             int sec = it->second;
 
-            if(fir!=sec && fir!=sec+1 && fir!=sec-1){
-                cout<<"No"<<endl;
-            }
-            else cout<<"Yes"<<endl;
+            cout<<(abs(fir-sec)>1 ? "No" : "Yes")<<endl;
         }
     }
 }
