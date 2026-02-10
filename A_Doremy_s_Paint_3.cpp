@@ -6,24 +6,24 @@ int main(){
     while(t--){
         int n;
         cin>>n;
-        vector<int> v(n);
+
         unordered_map<int,int> m;
-        set<int> s;
+
         for(int i=0; i<n; i++){
-            cin>>v[i];
-            m[v[i]]++;
-            s.insert(v[i]);
+            int temp;
+            cin>>temp;
+            m[temp]++;
         }
 
-        if(s.size()>2) cout<<"No"<<endl;
-        else if(s.size()==1) cout<<"Yes"<<endl;
+        if(m.size()>2) cout<<"No"<<endl;
+        else if(m.size()==1) cout<<"Yes"<<endl;
         else{
-            vector<int> v2;
-            for(auto it:s){
-                v2.push_back(m[it]);
-            }
+            auto it = m.begin();
+            int fir = it->second;
+            it++;
+            int sec = it->second;
 
-            if(v2[0]!=v2[1] && v2[0]!=v2[1]+1 && v2[0]!=v2[1]-1){
+            if(fir!=sec && fir!=sec+1 && fir!=sec-1){
                 cout<<"No"<<endl;
             }
             else cout<<"Yes"<<endl;
