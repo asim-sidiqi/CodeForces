@@ -11,14 +11,8 @@ int main(){
             cout<<x<<endl;
         }
         else{
-            if((x-1)%k!=0){
-                cout<<"2"<<endl;
-                cout<<x-1<<" "<<"1"<<endl;
-            }
-            else if((x-2)%k!=0 && k!=2){
-                cout<<"2"<<endl;
-                cout<<x-2<<" "<<"2"<<endl;
-            }
+            cout<<"2"<<endl;
+            cout<<x-1<<" "<<"1"<<endl;
         }
     }
 }
