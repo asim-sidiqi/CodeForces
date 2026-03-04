@@ -13,6 +13,7 @@ int main(){
             cin>>x;
             ans.push_back(n+1-x);
         }
+        
 
         for(int it:ans){
             cout<<it<<" ";
