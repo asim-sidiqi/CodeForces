@@ -14,6 +14,7 @@ int main(){
             if(temp==0) zeroes++;
             sum+=temp;
         }
+        
 
         cout<<sum+zeroes<<endl;
     }
