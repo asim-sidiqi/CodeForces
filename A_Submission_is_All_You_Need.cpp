@@ -15,7 +15,6 @@ int main(){
             sum+=temp;
         }
         
-
         cout<<sum+zeroes<<endl;
     }
 }
