@@ -8,7 +8,17 @@ int main(){
         cin>>n>>k;
 
         if(k%2==0){
-            
+            if(n%2==0) cout<<"YES"<<endl;
+            else cout<<"NO"<<endl;
+        }
+        else{
+            if(n%2!=0){
+                if(n>=k) cout<<"YES"<<endl;
+                else cout<<"NO"<<endl;
+            }
+            else{
+                
+            }
         }
     }
 }
