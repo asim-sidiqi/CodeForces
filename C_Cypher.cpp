@@ -18,7 +18,6 @@ int main(){
             cin>>m>>st;
 
             moves.push_back(st);
-            
         }
 
         for(int i=0; i<n; i++){
