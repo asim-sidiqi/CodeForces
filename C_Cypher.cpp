@@ -16,7 +16,6 @@ int main(){
             int m;
             string st;
             cin>>m>>st;
-            
 
             moves.push_back(st);
         }
