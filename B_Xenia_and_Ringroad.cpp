@@ -5,6 +5,7 @@ int main(){
     int n,m;
     cin>>n>>m;
 
+    
     int64_t count=0;
 
     vector<int> houses;
