@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     int n,m;
     cin>>n>>m;
+    
 
     int64_t count=0;
 
