@@ -6,7 +6,6 @@ int main(){
     cin>>n>>m;
 
     int64_t count=0;
-    
 
     vector<int> houses;
     for(int i=0; i<m; i++){
