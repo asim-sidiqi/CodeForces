@@ -16,6 +16,7 @@ int main(){
                 int backMoves = a-c;
                 cout<<upMoves+backMoves<<endl;
             }
+            
         }
     }
 }
