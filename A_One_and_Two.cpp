@@ -10,7 +10,6 @@ int main(){
         int countTwo=0;
         for(int i=0; i<n; i++){
             cin>>arr[i];
-            
             if(arr[i]==2) countTwo++;
         }
 
