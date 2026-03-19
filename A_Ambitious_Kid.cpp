@@ -10,5 +10,6 @@ int main(){
         mini = min(mini, abs(x));
     }
 
+
     cout<<mini;
 }
