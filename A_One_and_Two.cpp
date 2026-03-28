@@ -13,6 +13,7 @@ int main(){
             cin>>arr[i];
             if(arr[i]==2) countTwo++;
         }
+        
 
         if(countTwo%2!=0){
             cout<<-1<<endl;
